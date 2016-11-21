@@ -16,8 +16,7 @@
 			<div class="content">
 				
 				<header class="page-header">
-					<h1><?php printf( __( 'Category Archives', 'integral' ), single_cat_title( '', false ) ); ?></h1>
-                    <h2><?php printf( __( '%s', 'integral' ), single_cat_title( '', false ) ); ?></h2>
+                    <h1><?php printf( __( '%s', 'integral' ), single_cat_title( '', false ) ); ?></h1>
 				</header>
 
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -34,6 +33,7 @@
                             printf( _n( '1 Comment', '%1$s Comments', get_comments_number(), 'integral' ),
                                 number_format_i18n( get_comments_number() ), get_the_title() ); ?></a></li>
                     <li><i class="fa fa-user"></i><?php the_author(); ?></li>
+			<li><?php post_read_time(); ?></li>
                 </ul>
                 <div class="entry">
                     <?php the_excerpt(); ?>

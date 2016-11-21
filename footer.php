@@ -30,11 +30,11 @@
 
                                 <span class="sep"> | </span>
 
-                                <?php printf( __( 'Powered by %2$s', 'integral' ), 'integral', '<a href="https://www.wordpress.org/" rel="designer">Wordpress</a>' ); ?>
+                                <?php printf( __( 'Powered by %2$s', 'integral' ), 'integral', 'Wordpress' ); ?>
 
                                 <span class="sep"> | </span>
 
-                                <?php printf( __( 'Made with &#10084; by %2$s', 'integral' ), 'integral', '<a href="https://www.themely.com/" rel="designer">Themely</a>' ); ?>
+                                <?php printf( __( '<a href="https://pandaveeb.eu/feed/"><img src="http://files.softicons.com/download/application-icons/soft-icons-by-kyo-tux/png/32/RSS.png"></a>', 'integral' ), 'integral', '<img src="http://files.softicons.com/download/application-icons/soft-icons-by-kyo-tux/png/32/RSS.png">' ); ?>
 
                                 <?php endif; ?>
                             </p>

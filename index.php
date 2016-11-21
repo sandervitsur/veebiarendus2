@@ -43,7 +43,7 @@
                                 number_format_i18n( get_comments_number() ), get_the_title() ); ?></a></li>
                     
                 <li><i class="fa fa-user"></i><?php the_author(); ?></li>
-                
+                <li><?php post_read_time(); ?></li>
                 </ul>
                 
                 <div class="entry">
