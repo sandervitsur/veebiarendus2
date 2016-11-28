@@ -30,13 +30,10 @@
 
                                 <span class="sep"> | </span>
 
-                                <?php printf( __( 'Powered by %2$s', 'integral' ), 'integral', 'Wordpress' ); ?>
-
-                                <span class="sep"> | </span>
-
-                                <?php printf( __( '<a href="https://pandaveeb.eu/feed/"><img src="http://files.softicons.com/download/application-icons/soft-icons-by-kyo-tux/png/32/RSS.png"></a>', 'integral' ), 'integral', '<img src="http://files.softicons.com/download/application-icons/soft-icons-by-kyo-tux/png/32/RSS.png">' ); ?>
+                                <?php printf( __( '<a href="https://pandaveeb.eu/feed/"><img src="http://www.clker.com/cliparts/0/5/a/e/12576752211189733180Minduka_RSS_icon_3.svg.med.png" width="40px"></a>', 'integral' ), 'integral', '<img src="http://files.softicons.com/download/application-icons/soft-icons-by-kyo-tux/png/32/RSS.png">' ); ?>
 
                                 <?php endif; ?>
+				
                             </p>
 
                         </div>

@@ -88,7 +88,20 @@
                         ?>
 
                     <?php endif; ?>
-
+		<div style="width: 300px; ">
+		<script>
+  (function() {
+    var cx = '014707182467837159106:pf3bbulz3so';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
                </div>
 
             </div>
