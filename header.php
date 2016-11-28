@@ -88,7 +88,7 @@
                         ?>
 
                     <?php endif; ?>
-		<div style="width: 300px; ">
+		<div style="width: 300px; float: right;">
 		<script>
   (function() {
     var cx = '014707182467837159106:pf3bbulz3so';
